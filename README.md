@@ -20,9 +20,9 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 
 Instead of code replace above path with your .exe file location path
 
-# If you want to run Main.ipyn file
+# If you want to run Main.ipynb file
 
-If you to run the .ipyn file, Please open the anaconda promot and paste the folder file path 
+If you to run the .ipynb file, Please open the anaconda promot and paste the folder file path 
 
 After that open  jupyter notebook using anaconda promote so that you do neet change any files paths in the code
 
@@ -34,7 +34,7 @@ Open your command promot on your system and open the flask in your command promo
 
 Type python appy.py in the commond promot, You will get the IP address. 
 
-Please type the IP address in your preferred brower and continue the web app
+Please type the IP address in your preferred browser and continue the web app
 
 # Details about the project
 
@@ -44,7 +44,7 @@ For storing login details we used firebase as a database. we store all the data 
 
  <img width="551" alt="main11" src="https://user-images.githubusercontent.com/110091047/204408101-5e229e87-eacb-4586-b3ea-90634b52f723.png">
  
-In this we have used yolo v5 model(you can the implementation process in Training_yolo5_model.ipynb) for obejct detection
+In this we have used yolo v5 model(you can see the implementation process in Training_yolo5_model.ipynb) for obejct detection
  
 If you upload the image the image will be loaded to the YOLO V5 model.
 
@@ -52,9 +52,9 @@ If you upload the image the image will be loaded to the YOLO V5 model.
 
 And We Used pytesseract for the detected number plate from the model.
 
-Once we extract the number palte. We send this as a input to RSA function which helps to encrypt the text 
+Once we extract the number plate. We send this as a input to RSA function which helps to encrypt the text 
 
-The encrypted text will be stored in the database and once you press the decrypt in the web app. You will get the decrypted output and it will be stored in the Firebase database aswell.
+The encrypted text will be stored in the database and once you press the decrypt in the web app. You will get the decrypted output and it will be stored in the Firebase database as well.
 <img width="905" alt="second" src="https://user-images.githubusercontent.com/110091047/204407990-64ee2d6e-50c7-42f0-8104-303fb2454797.png">
 
 <img width="904" alt="03" src="https://user-images.githubusercontent.com/110091047/204408054-f816bb70-9db6-41d5-964a-47815919110c.png">
