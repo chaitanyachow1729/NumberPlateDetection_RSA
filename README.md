@@ -1,6 +1,6 @@
 # Number Plate Detection_RSA
 
-Install the following code to install python packages to run the project
+Install the following python packages to run the project
 
 pip install opencv -python
 
